@@ -1,0 +1,51 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+   padding: 0;
+   background-color: beige;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Titulo{
+    padding: 30px 0 0;
+    text-align: center;
+}
+
+.formulario{
+    max-width: 210px;
+    margin: 30px auto 10%;
+}
+
+.divisoria{
+    padding: 10px;
+}
+
+.divisoria-botao{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    padding: 10px;
+}
+
+input[type="button"]{
+    width: fit-content;
+}
+
+.input{
+    display: block;
+    height: 22px;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 4px 10px;
+    background-color: rgb(211, 171, 120);
+}
+
+
+
+
+
+
+
+
+
